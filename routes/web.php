@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         "name" => "Tedd",
-        "email" => "tedd12345@gmail.com",
+        "email" => "tedd84@gmail.com",
         "image" => "saya.jpg"
     ]);
 });

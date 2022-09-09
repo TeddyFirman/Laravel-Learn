@@ -9,5 +9,8 @@
 </head>
 <body>
     <h1>Halaman About</h1>
+    <h3>Teddy</h3>
+    <p>tedd123@gmail.com</p>
+    <img src="img/saya.jpg" alt="Tedd" width="200">
 </body>
 </html>

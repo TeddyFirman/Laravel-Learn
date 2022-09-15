@@ -46,6 +46,11 @@ class DatabaseSeeder extends Seeder
             'slug' => 'personal'
         ]);
 
+        Category::create([
+            'name' => 'Data Science',
+            'slug' => 'data-science'
+        ]);
+
         Post::create([
             'title' => 'Judul Pertama',
             'slug' => 'judul-pertama',

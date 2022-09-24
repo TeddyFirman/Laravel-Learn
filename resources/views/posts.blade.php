@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1>{{ $title }}</h1>
+    <h1 class="mb-3 text-center">{{ $title }}</h1>
 
-    <div class="row">
+    <div class="row justify-content-center mb-3">
         <div class="col-md-6">
-            <form action="/posts" method="GET">
+            <form action="/posts"> {{-- methodnya GET --}}
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Search..." name="search">
                     <div class="input-group-append">

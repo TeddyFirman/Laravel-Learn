@@ -23,10 +23,6 @@
                 <article class="my-3 fs-5">
                     {!! $post->body !!}
                 </article>
-
-
-
-
             </div>
         </div>
     </div>

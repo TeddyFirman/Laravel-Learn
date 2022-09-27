@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 
 class Post extends Model
 {
-    use HasFactory;
+    use HasFactory, Sluggable;
 
     // protected $fillable = ['title', 'excerpt', 'body'];
     protected $guarded = ['id'];
